@@ -1,0 +1,47 @@
+body {
+    background-image: url(./Images/tumblr_op35hoSOAU1vl0djxo1_500.gif);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin-top: 10% ;
+    font-family: "ＭＳ Ｐゴシック";
+    font-size: 75%;
+}
+.container{
+    background-color: rgb(209, 209, 209);
+    border: 5px solid pink;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container > .display ,.container > .choice {
+    height: 80px;
+    display: flex;
+    padding: 2px;
+    border: 1px solid black;
+    align-items:center ;
+}
+
+.choice {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+button {
+    width: 36%;
+    height: 100%;
+    color: rgb(203, 60, 108);
+}
+button:hover {
+
+    background-color: peachpuff;
+    color: black
+}
+
+.display > div {
+
+    height: 100%;
+}
